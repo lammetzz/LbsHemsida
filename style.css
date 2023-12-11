@@ -6,6 +6,13 @@
 
 .noText {
     color: white;
+    text-decoration: none;
+    font-style: italic;
+    
+}
+
+.noText:hover {
+    color: rgb(230, 219, 219);
 }
 
 body {
@@ -27,6 +34,20 @@ body {
     width: 100%;
     gap: 3%;
 }
+
 h1{
     margin: 0%;
 }
+
+footer {
+    background-color: #2a3f36;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0px;
+    margin-top: 15px;
+  }
+
+  .margin{
+    margin-left: 5%;
+  }
