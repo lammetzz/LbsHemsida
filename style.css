@@ -6,6 +6,10 @@
   font-size: 15px;
 }
 
+.space {
+    justify-content: space-evenly;
+}
+
 .noText {
     color: white;
 }
@@ -17,4 +21,8 @@ body {
     display: flex;
     justify-content: flex-start;
     scale: 60%;
+}
+
+.noMargin {
+    margin: 0%;
 }
