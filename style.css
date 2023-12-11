@@ -1,0 +1,31 @@
+<<<<<<< HEAD
+=======
+.up {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(183, 137, 137);
+  margin: 0%;
+  font-size: 15px;
+}
+
+.space {
+    justify-content: space-evenly;
+}
+
+.noText {
+    color: white;
+}
+
+body {
+    background-color: whitesmoke;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    scale: 60%;
+}
+
+.noMargin {
+    margin: 0%;
+}
+>>>>>>> 0482bdb82707b83218f8ae2f0307a36c8dfa7454
