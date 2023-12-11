@@ -23,8 +23,9 @@ body {
 
 .space {
     display: flex;
-    justify-content: center;
-    gap: 15px;
+    align-items: center;
+    width: 100%;
+    gap: 3%;
 }
 h1{
     margin: 0%;
