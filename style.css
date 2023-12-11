@@ -1,0 +1,20 @@
+.up {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(183, 137, 137);
+  margin: 0%;
+  font-size: 15px;
+}
+
+.noText {
+    color: white;
+}
+
+body {
+    background-color: whitesmoke;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    scale: 60%;
+}
