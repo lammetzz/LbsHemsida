@@ -1,15 +1,7 @@
-<<<<<<< HEAD
-=======
 .up {
   display: flex;
-  justify-content: space-evenly;
   background-color: rgb(183, 137, 137);
-  margin: 0%;
-  font-size: 15px;
-}
-
-.space {
-    justify-content: space-evenly;
+  font-size: 13px;
 }
 
 .noText {
@@ -28,4 +20,8 @@ body {
 .noMargin {
     margin: 0%;
 }
->>>>>>> 0482bdb82707b83218f8ae2f0307a36c8dfa7454
+
+.space {
+    display: flex;
+    justify-content: space-evenly;
+}
