@@ -1,7 +1,7 @@
 .up {
   display: flex;
   background-color: rgb(66, 58, 58);
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .noText {
@@ -55,9 +55,16 @@ footer {
 .left {
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
 }
 
 .center {
     display: flex;
     justify-content: center;
+}
+.kontakt {
+    display: flex;
+    align-items: center;
 }
