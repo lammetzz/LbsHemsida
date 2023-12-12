@@ -3,29 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="elevFörEnDag.css">
     <title>elevFörEnDag</title>
 </head>
 <body>
 <body>
     <header> ELEV FÖR EN DAG ANMÄLAN </header>
     <div class="Svart box"></div>
-    <p>
-    Anmäl dig i formuläret här så hör vi av oss
-    till dig via mail för att boka in en tid. 
-    Håll utkik i din inkorg </p>
+    
+    <p> Anmäl dig i formuläret här så hör vi av oss
+    till dig via mail
+    <br>att boka in en tid. 
+    Håll utkik i din inkorg
 
     <form>
-        <label for="Förnamn">Förnamn :</label>
+        <p> Förnamn*</p>
         <input type="text" id="Förnamn" name="Förnamn"><br><br>
-    
-        <label for="Efternamn">Efternamn:</label>
+         <p> Efternamn*</p> 
         <input type="text" id="Efternamn" name="Efternamn"><br><br>
     
-        <label for="Epost">Epost:</label>
+        <p> E-post*</p>
         <input type="text" id="Epost" name="Epost"><br><br>
     
-        <label for="mobilnummer">mobilnummer:</label>
+        <p>mobilnummer*</p>
         <input type="text" id="mobilnummer" name="mobilnummer"><br><br>
     
         <form>
@@ -54,32 +54,46 @@
             <input type="checkbox" id="val3" name="program" value="Program 3">
             <label for="val3">Spelgrafik</label><br>
           
-            <input type="checkbox" id="val4" name="program" value="Program 4">
+            <input 
+            type="checkbox" id="val4" name="program" value="Program 4">
             <label for="val4">Spelutveckling</label><br>
+
+            <div class="ínfo"> 
+                <h1> Elev för en dag på LBS Växjö</h1>
+                <p> Välkommen att boka in dig till elev för en dag!</p>
+
+                   <p>Nu har du chansen att följa en klass under en skoldag. Häng med våra elever,
+                     lärare och ställ alla frågor <br>du har om skolan och gymnasievalet. 
+                     Boka in dig i formuläret så hör vi av oss för att boka in en dag!</p>
+                    
+                    <p>Har du några frågor om ditt besök? Ring oss på: 
+                    <br>047 049062 eller mejla till: vaxjo@lbs.se. 
+                    Du hittar oss på Regementsgatan 9 i Växjö.</p>
+            </div>
           
             <Form>
                 <p> Hantering av personuppgifter </p>
-
-                <input type="checkbox" id="val4" name="program" value="Program 4">
-               <label for="val4">Om du är under 16 år ber vi dig att först fråga din 
-                vårdnadshavare om lov att skriva upp dig på interessanmälan.
-                Jag, alternativt min vårdnadshavare, godkänner LBS Kreativa Gymnasiets 
-                hantering av personuppgifter</label><br> 
+                <label for="val4"> <div> <input type="checkbox" id="val4" name="program" value="Program 4">
+                Om du är under 16 år ber vi dig att först fråga din 
+                vårdnadshavare om lov att skriva upp <br>dig på interessanmälan.
+                Jag, alternativt min vårdnadshavare,<br> godkänner LBS Kreativa Gymnasiets 
+                hantering av personuppgifter</label><br></div>
                 
+
                 <input type="submit" value="Skicka"> 
             </Form>
-            <div class="ínfo"> 
-                <h1> Elev för en dag på LBS Växjö</h1>
-                <p> Välkommen att boka in dig till elev för en dag!
+            <div id="message" style="display: none;">Ditt formulär har skickats.</div>
 
-                    Nu har du chansen att följa en klass under en skoldag. Häng med våra elever,
-                     lärare och ställ alla frågor du har om skolan och gymnasievalet. 
-                     Boka in dig i formuläret så hör vi av oss för att boka in en dag!
-                    
-                    Har du några frågor om ditt besök? Ring oss på: 
-                    047 049062 eller mejla till: vaxjo@lbs.se. 
-                    Du hittar oss på Regementsgatan 9 i Växjö.</p>
-            </div>
+<script>
+  // Här använder vi JavaScript för att hantera formuläret
+  document.getElementById("myForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Förhindrar att sidan laddas om när knappen trycks
+
+    // Visa meddelandet efter att formuläret har skickats
+    document.getElementById("message").style.display = "block";
+  });
+</script>
+
 
 </body>
 </html>
