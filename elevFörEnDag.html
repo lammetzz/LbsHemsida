@@ -6,8 +6,7 @@
     <link rel="stylesheet" href="elevFörEnDag.css">
     <title>elevFörEnDag</title>
 </head>
-<body>
-<body>
+<body class="noMargin">
     <header> ELEV FÖR EN DAG ANMÄLAN </header>
     <div class="Svart box"></div>
     
@@ -16,19 +15,20 @@
     <br>att boka in en tid. 
     Håll utkik i din inkorg
 
-    <form>
-        <p> Förnamn*</p>
+    <form class="namn">
+        <p class="noMargin"> Förnamn*</p>
         <input type="text" id="Förnamn" name="Förnamn"><br><br>
-         <p> Efternamn*</p> 
+         <p class="noMargin"> Efternamn*</p> 
         <input type="text" id="Efternamn" name="Efternamn"><br><br>
     
-        <p> E-post*</p>
+        <p class="noMargin"> E-post*</p>
         <input type="text" id="Epost" name="Epost"><br><br>
     
-        <p>mobilnummer*</p>
+        <p  class="noMargin">mobilnummer*</p>
         <input type="text" id="mobilnummer" name="mobilnummer"><br><br>
+    </form> 
     
-        <form>
+        <form2>
             <p>När börjar du gymnasiet?</p>
           
             <input type="radio" id="val1" name="gymnasieStart" value="2024">
@@ -40,9 +40,9 @@
             <input type="radio" id="val3" name="gymnasieStart" value="2026">
             <label for="val3">2026</label><br>
           
-          </form>
+          </form2>
 
-          <Form>
+          <form3>
             <p> Välj program</p>
 
             <input type="checkbox" id="val1" name="program" value="Program 1">
@@ -57,7 +57,7 @@
             <input 
             type="checkbox" id="val4" name="program" value="Program 4">
             <label for="val4">Spelutveckling</label><br>
-
+          </form3>
             <div class="ínfo"> 
                 <h1> Elev för en dag på LBS Växjö</h1>
                 <p> Välkommen att boka in dig till elev för en dag!</p>
@@ -71,28 +71,17 @@
                     Du hittar oss på Regementsgatan 9 i Växjö.</p>
             </div>
           
-            <Form>
+            <form>
                 <p> Hantering av personuppgifter </p>
                 <label for="val4"> <div> <input type="checkbox" id="val4" name="program" value="Program 4">
                 Om du är under 16 år ber vi dig att först fråga din 
                 vårdnadshavare om lov att skriva upp <br>dig på interessanmälan.
                 Jag, alternativt min vårdnadshavare,<br> godkänner LBS Kreativa Gymnasiets 
                 hantering av personuppgifter</label><br></div>
-                
 
                 <input type="submit" value="Skicka"> 
-            </Form>
-            <div id="message" style="display: none;">Ditt formulär har skickats.</div>
-
-<script>
-  // Här använder vi JavaScript för att hantera formuläret
-  document.getElementById("myForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Förhindrar att sidan laddas om när knappen trycks
-
-    // Visa meddelandet efter att formuläret har skickats
-    document.getElementById("message").style.display = "block";
-  });
-</script>
+            </form>
+           
 
 
 </body>
