@@ -7,7 +7,7 @@
 .noText {
     color: white;
     text-decoration: none;
-    font-style: italic;
+    font-style: unset;
     
 }
 
@@ -46,8 +46,18 @@ footer {
     padding: 10px;
     bottom: 0px;
     margin-top: 15px;
-  }
+}
 
-  .margin{
+.margin{
     margin-left: 5%;
-  }
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
