@@ -1,0 +1,66 @@
+.up {
+    display: flex;
+    background-color: rgb(66, 58, 58);
+    font-size: 11px;
+  }
+  
+  .noText {
+      color: white;
+      text-decoration: none;
+      font-style: unset;
+      
+  }
+  
+  .noText:hover {
+      color: rgb(230, 219, 219);
+  }
+  
+  body {
+      background-color: whitesmoke;
+  }
+  .logo{
+      display: flex;
+      justify-content: flex-start;
+      scale: 60%;
+  }
+  
+  .noMargin {
+      margin: 0%;
+  }
+  
+  .space {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      gap: 3%;
+  }
+  
+  h1{
+      margin: 0%;
+  }
+  
+  footer {
+      background-color: rgb(66, 58, 58) ;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      bottom: 0px;
+      margin-top: 15px;
+  }
+  
+  .margin{
+      margin-left: 3%;
+  }
+  
+  .left {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 20px;
+  }
+  
+  .center {
+      display: flex;
+      justify-content: center;
+  }
