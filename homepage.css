@@ -2,13 +2,13 @@
     display: flex;
     background-color: rgb(66, 58, 58);
     font-size: 11px;
+    position: fixed;
   }
   
   .noText {
       color: white;
       text-decoration: none;
       font-style: unset;
-      
   }
   
   .noText:hover {
@@ -18,10 +18,12 @@
   body {
       background-color: whitesmoke;
   }
+
   .logo{
       display: flex;
       justify-content: flex-start;
       scale: 60%;
+      max-width: 100%;
   }
   
   .noMargin {
@@ -51,7 +53,7 @@
       margin-left: 3%;
   }
   
-  .footer {
+  .footerColumn {
       display: flex;
       justify-content: flex-start;
       flex-direction: column;
@@ -89,3 +91,39 @@
     justify-content: center;
     width: 100%;
   }
+
+  .noTopMargin {
+    margin-top: 0%;
+  }
+
+  .topMargin { 
+    margin-top: 5%;
+  }
+
+  @media (max-width: 800px) {
+    .up {
+        font-size: 10px;
+    }
+  }
+
+@media (max-width: 790px) {
+
+    .topMargin {
+        margin-top: 0%;
+    }
+
+    .mid {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footerColumn {
+        max-width: none;
+    }
+
+    .box {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
