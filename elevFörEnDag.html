@@ -6,81 +6,89 @@
     <link rel="stylesheet" href="elevFörEnDag.css">
     <title>elevFörEnDag</title>
 </head>
-<body class="noMargin">
-    <header> ELEV FÖR EN DAG ANMÄLAN </header>
-    <div class="Svart box"></div>
-    
-    <p> Anmäl dig i formuläret här så hör vi av oss
-    till dig via mail
-    <br>att boka in en tid. 
-    Håll utkik i din inkorg
-
-    <form class="namn">
-        <p class="noMargin"> Förnamn*</p>
-        <input type="text" id="Förnamn" name="Förnamn"><br><br>
-         <p class="noMargin"> Efternamn*</p> 
-        <input type="text" id="Efternamn" name="Efternamn"><br><br>
-    
-        <p class="noMargin"> E-post*</p>
-        <input type="text" id="Epost" name="Epost"><br><br>
-    
-        <p  class="noMargin">mobilnummer*</p>
-        <input type="text" id="mobilnummer" name="mobilnummer"><br><br>
-    </form> 
-    
-        <form2>
-            <p>När börjar du gymnasiet?</p>
-          
-            <input type="radio" id="val1" name="gymnasieStart" value="2024">
-            <label for="val1">2024</label><br>
-          
-            <input type="radio" id="val2" name="gymnasieStart" value="2025">
-            <label for="val2">2025</label><br>
-          
-            <input type="radio" id="val3" name="gymnasieStart" value="2026">
-            <label for="val3">2026</label><br>
-          
-          </form2>
-
-          <form3>
-            <p> Välj program</p>
-
-            <input type="checkbox" id="val1" name="program" value="Program 1">
-            <label for="val1"> App och Webbutveckling</label><br>
-          
-            <input type="checkbox" id="val2" name="program" value="Program 2">
-            <label for="val2"> Grafisk design</label><br>
-          
-            <input type="checkbox" id="val3" name="program" value="Program 3">
-            <label for="val3">Spelgrafik</label><br>
-          
-            <input 
-            type="checkbox" id="val4" name="program" value="Program 4">
-            <label for="val4">Spelutveckling</label><br>
-          </form3>
-            <div class="ínfo"> 
-                <h1> Elev för en dag på LBS Växjö</h1>
-                <p> Välkommen att boka in dig till elev för en dag!</p>
-
-                   <p>Nu har du chansen att följa en klass under en skoldag. Häng med våra elever,
-                     lärare och ställ alla frågor <br>du har om skolan och gymnasievalet. 
-                     Boka in dig i formuläret så hör vi av oss för att boka in en dag!</p>
-                    
-                    <p>Har du några frågor om ditt besök? Ring oss på: 
-                    <br>047 049062 eller mejla till: vaxjo@lbs.se. 
-                    Du hittar oss på Regementsgatan 9 i Växjö.</p>
+    <body class="noMargin">
+        <div class="up">
+            <div class="logo">
+                <a href="index.html"><img src="lbsLogo.gif" alt="lbsLogo" /></a>
             </div>
-          
-            <form>
-                <p> Hantering av personuppgifter </p>
-                <label for="val4"> <div> <input type="checkbox" id="val4" name="program" value="Program 4">
-                Om du är under 16 år ber vi dig att först fråga din 
-                vårdnadshavare om lov att skriva upp <br>dig på interessanmälan.
-                Jag, alternativt min vårdnadshavare,<br> godkänner LBS Kreativa Gymnasiets 
-                hantering av personuppgifter</label><br></div>
-
-                <input type="submit" value="Skicka"> 
-            </form>
+    
+            <div class="space">
+                <div>
+                    <h1><a href="omLbs.html" class="noText">Om oss</a></h1>
+                </div>
+    
+                <div>
+                    <h1><a href="program.html" class="noText">Program</a></h1>
+                </div>
+    
+                <div>
+                    <h1><a href="kontaktaOss.html" class="noText">Kontakta oss</a></h1>
+                </div>
+    
+                <div>
+                    <h1>
+                        <a href="elevFörEnDag.html" class="noText">Elev för en dag</a>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="full-width">
+            <form class="namn">
+                <header> ELEV FÖR EN DAG ANMÄLAN </header>
+                <div class="Svart box"></div>
+                    <p> Anmäl dig i formuläret här så hör vi av oss
+                        till dig via mail
+                        <br>att boka in en tid. 
+                            Håll utkik i din inkorg
+                            <p class="noMargin"> Förnamn*</p>
+                                <input type="text" id="Förnamn" name="Förnamn"><br><br>
+                            <p class="noMargin"> Efternamn*</p> 
+                        <input type="text" id="Efternamn" name="Efternamn"><br><br>
+                    <p class="noMargin"> E-post*</p>
+                <input type="text" id="Epost" name="Epost"><br><br>
+                    <p  class="noMargin">mobilnummer*</p>
+                        <input type="text" id="mobilnummer" name="mobilnummer"><br><br>
+                            <p>När börjar du gymnasiet?</p>
+                        <input type="radio" id="val1" name="gymnasieStart" value="2024">
+                    <label for="val1">2024</label><br>
+                <input type="radio" id="val2" name="gymnasieStart" value="2025">
+                    <label for="val2">2025</label><br>
+                         <input type="radio" id="val3" name="gymnasieStart" value="2026">
+                            <label for="val3">2026</label><br>
+                                <p> Välj program</p>
+                            <input type="checkbox" id="val1" name="program" value="Program 1">
+                        <label for="val1"> App och Webbutveckling</label><br>
+                    <input type="checkbox" id="val2" name="program" value="Program 2">
+                <label for="val2"> Grafisk design</label><br>  
+                    <input type="checkbox" id="val3" name="program" value="Program 3">
+                        <label for="val3">Spelgrafik</label><br>
+                            <input type="checkbox" id="val4" name="program" value="Program 4">
+                        <label for="val4">Spelutveckling</label><br>
+                    <form>
+                        <p> Hantering av personuppgifter </p>
+                            <label for="val4"> <div> <input type="checkbox" id="val4" name="program" value="Program 4">
+                        Om du är under 16 år ber vi dig att först fråga din 
+                        vårdnadshavare om lov att skriva upp <br>dig på interessanmälan.
+                        Jag, alternativt min vårdnadshavare,<br> godkänner LBS Kreativa Gymnasiets 
+                        hantering av personuppgifter</label><br></div>
+        
+                        <input type="submit" value="Skicka"> 
+                    </form>
+                </div>
+                  
+                    <div class="ínfo"> 
+                        <h1> Elev för en dag på LBS Växjö</h1>
+                        <p> Välkommen att boka in dig till elev för en dag!</p>
+        
+                           <p>Nu har du chansen att följa en klass under en skoldag. Häng med våra elever,
+                             lärare och ställ alla frågor <br>du har om skolan och gymnasievalet. 
+                             Boka in dig i formuläret så hör vi av oss för att boka in en dag!</p>
+                            
+                            <p>Har du några frågor om ditt besök? Ring oss på: 
+                            <br>047 049062 eller mejla till: vaxjo@lbs.se. 
+                            Du hittar oss på Regementsgatan 9 i Växjö.</p>
+                  
+        </div>
            
 
 

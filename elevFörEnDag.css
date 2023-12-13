@@ -1,9 +1,57 @@
 .namn{
-    background-color: aqua;
-    margin: 0;
-    
+    background-color: rgb(224, 229, 166);
+    margin: 50px;
+    text-align: right;
+    width: 30vw;
 }
 
 .noMargin {
     margin: 0;
 }
+
+.up {
+    display: flex;
+    background-color: rgb(66, 58, 58);
+    font-size: 11px;
+  }
+  
+  .noText {
+      color: white;
+      text-decoration: none;
+      font-style: unset;
+      
+  }
+  
+  .noText:hover {
+      color: rgb(230, 219, 219);
+  }
+  
+  body {
+      background-color: whitesmoke;
+  }
+  .logo{
+      display: flex;
+      justify-content: flex-start;
+      scale: 60%;
+  }
+  
+  .noMargin {
+      margin: 0%;
+  }
+  
+  .space {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      gap: 3%;
+  }
+
+  .full-width {
+    width: 100vw;
+    display: flex;
+    justify-content: end;
+  }
+
+  .ínfo{
+    text-align: top;
+  }
