@@ -1,6 +1,11 @@
+body {
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .up {
     display: flex;
-    background-color: rgb(66, 58, 58);
+    background-color: rgb(37, 58, 66);
     font-size: 11px;
   }
   
@@ -15,9 +20,6 @@
       color: rgb(230, 219, 219);
 }
 
-body {
-    background-color: whitesmoke;
-}
 .logo{
     display: flex;
     justify-content: flex-start;
@@ -38,7 +40,8 @@ body {
 .rubrik {
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 2%;
+    color: #fff;
 }
 
 footer {
@@ -51,9 +54,10 @@ footer {
 }
 
 .img {
-    width: 69%;
+    width: 100%;
     height: auto;
     border: 2px black solid;
+    max-height: 105px;
 }
 
 .posistion {
@@ -88,4 +92,8 @@ footer {
 
 .noTopMargin {
     padding-top: 5%;
+}
+
+.topMargin {
+    margin-top: 0%;
 }
