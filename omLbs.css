@@ -1,36 +1,129 @@
 .up {
     display: flex;
-    background-color: rgb(66, 58, 58);
+    background-color: rgb(37, 58, 66);
     font-size: 11px;
   }
   
-.noText {
+  .noText {
       color: white;
       text-decoration: none;
       font-style: unset;
-      
-}
+  }
   
-.noText:hover {
-      color: rgb(230, 219, 219);
-}
+  .noText:hover {
+      color: rgb(215, 204, 204);
+  }
+  
+  body {
+      background-color: whitesmoke;
+  }
 
-body {
-    background-color: whitesmoke;
-}
-.logo{
+  .logo{
+      display: flex;
+      justify-content: flex-start;
+      scale: 60%;
+      width: 100;
+      max-width: 100%;
+  }
+  
+  .noMargin {
+      margin: 0%;
+  }
+  
+  .space {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      gap: 3%;
+  }
+  
+  h1{
+      margin: 0%;
+  }
+  
+  footer {
+      background-color: rgb(37, 58, 66);
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      bottom: 0px;
+  }
+  
+  .margin{
+      margin-left: 3%;
+  }
+  
+  .footerColumn {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      align-items: center;
+      max-width: 125px;
+      font-size: 14px;
+  }
+  
+  .center {
+      display: flex;
+      justify-content: center;
+  }
+
+  .mid {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
+    font-size: 13px;
+    flex-direction: row;
+  }
+
+.scaleLogo {
     scale: 60%;
 }
 
-.noMargin {
-    margin: 0%;
-}
-
-.space {
+  .row {
     display: flex;
-    align-items: center;
+    justify-content: center;
     width: 100%;
-    gap: 3%;
+  }
+
+  .noTopMargin {
+    margin-top: 0%;
+  }
+
+  .topMargin { 
+    margin-top: 5%;
+  }
+
+  .hover {
+    display: flex;
+  }
+
+  .hover:hover{
+    color: rgb(215, 204, 204);
+  }
+
+  @media (max-width: 800px) {
+    .hidden {
+        display: none;
+    }
+  }
+
+@media (max-width: 700px) {
+
+    .topMargin {
+        margin-top: 0%;
+    }
+
+    .mid {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footerColumn {
+        max-width: none;
+    }
+
+    .box {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
