@@ -51,22 +51,41 @@ footer {
 }
 
 .img {
-    width: 15%;
+    width: 69%;
     height: auto;
+    border: 2px black solid;
 }
 
 .posistion {
-    display: flex;
-    justify-content: space-evenly;
+    display: flex; 
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
     
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
 }
 
 .background {
     background-color: black;
     color: #fff;
-    max-width: 30%;
+    width: 201px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 4px;
+    margin-bottom: 35px;
+}
+
+.background:hover {
+    background-color: rgb(63, 63, 63);
 }
 
 .noTopMargin {
-    margin-top: 0%;
+    padding-top: 5%;
 }
