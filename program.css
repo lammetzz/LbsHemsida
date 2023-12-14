@@ -1,5 +1,5 @@
 body {
-    background-image: url(./background.jpg);
+    background-image: url(./cyanCloud.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -12,7 +12,12 @@ body {
     margin-bottom: 10px;
 }
 
+.kort {
+
+    
+}
 .img {
+    aspect-ratio: 1 / 1 auto;
     width: 200px;
     height: auto;
     border: 2px black solid;
