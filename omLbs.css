@@ -14,9 +14,13 @@
       color: rgb(215, 204, 204);
   }
   
-  body {
-      background-color: whitesmoke;
-  }
+
+    body {
+        background-image: url(HD-wallpaper-green-theme-background-whatsapp.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+    }
 
   .logo{
       display: flex;
@@ -126,4 +130,26 @@
         margin-right: 0;
         margin-left: 0;
     }
+}
+
+.OmOss{
+    margin: 20px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.ändring {
+    display: flex;
+    justify-content: end;
+    width: 40%;
+    height: auto;  
+    margin: 20px;
+  }
+
+.StorContainer{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    margin: 30px;
 }
