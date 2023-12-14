@@ -142,10 +142,16 @@
 .ändring {
     display: flex;
     justify-content: end;
-    width: 300px;
-    height: 400px;  
+    width: 700px;
+    height: 700px;  
     margin: 0px;
-  }
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+  
 
 .StorContainer{
     display: flex;
