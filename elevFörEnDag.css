@@ -1,5 +1,5 @@
 .namn{
-    background-color: rgba(37, 58, 66);
+    background-color: rgb(20, 44, 54);
     margin: 50px;
     text-align: right;
     width: 30vw;
@@ -12,12 +12,6 @@
 .noMargin {
     margin: 0;
 }
-
-.up {
-    display: flex;
-    background-color: rgb(66, 58, 58);
-    font-size: 11px;
-  }
   
   .noText {
       color: white;
@@ -58,13 +52,9 @@
     
   }
 
-.information {
-   
-}
-
 .up {
     display: flex;
-    background-color: rgb(37, 58, 66);
+    background-color: rgb(20, 44, 54);
     font-size: 11px;
   }
   
@@ -106,7 +96,7 @@
   }
   
   footer {
-      background-color: rgb(37, 58, 66);
+      background-color: rgb(20, 44, 54);
       color: #fff;
       text-align: center;
       padding: 10px;
@@ -165,7 +155,7 @@
   }
 
   body {
-    background-image: url(./HD-wallpaper-green-theme-background-whatsapp.jpg);
+    background-image: url(./cyan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }

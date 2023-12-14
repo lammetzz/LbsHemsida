@@ -1,6 +1,6 @@
 .up {
     display: flex;
-    background-color: rgb(37, 58, 66);
+    background-color: rgb(20, 44, 54);
     font-size: 11px;
 }
 
@@ -16,7 +16,7 @@
 
 body {
     background-color: whitesmoke;
-    background-image: url(./background.jpg);
+    background-image: url(./cyan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -45,7 +45,7 @@ h1 {
 }
 
 footer {
-    background-color: rgb(37, 58, 66);
+    background-color: rgb(20, 44, 54);
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -101,6 +101,17 @@ footer {
 
 .hover:hover {
     color: rgb(215, 204, 204);
+}
+
+.color {
+    color: white;
+    margin: 50px;
+    margin-top: 0px;
+}
+
+.container {
+    width: 1518px;
+    height: 700px;
 }
 
 @media (max-width: 800px) {
