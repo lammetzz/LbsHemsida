@@ -1,143 +1,202 @@
 .up {
-    display: flex;
-    background-color: rgb(20, 44, 54);
-    font-size: 11px;
+  display: flex;
+  background-color: rgb(20, 44, 54);
+  font-size: 11px;
 }
 
 .noText {
-    color: white;
-    text-decoration: none;
-    font-style: unset;
+  color: white;
+  text-decoration: none;
+  font-style: unset;
 }
 
 .noText:hover {
-    color: rgb(215, 204, 204);
+  color: rgb(215, 204, 204);
 }
 
 body {
-    background-color: whitesmoke;
-    background-image: url(./cyan.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-color: black;
+  background-image: url(./);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .logo {
-    display: flex;
-    justify-content: flex-start;
-    scale: 60%;
-    width: 100;
-    max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  scale: 60%;
+  width: 100;
+  max-width: 100%;
 }
 
 .noMargin {
-    margin: 0%;
+  margin: 0%;
 }
 
 .space {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    gap: 3%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 3%;
 }
 
 h1 {
-    margin: 0%;
+  margin: 0%;
 }
 
 footer {
-    background-color: rgb(20, 44, 54);
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    bottom: 0px;
+  background-color: rgb(20, 44, 54);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  bottom: 0px;
 }
 
 .margin {
-    margin-left: 3%;
+  margin-left: 3%;
 }
 
 .footerColumn {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
-    max-width: 125px;
-    font-size: 14px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  max-width: 125px;
+  font-size: 14px;
 }
 
 .center {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .mid {
-    display: flex;
-    justify-content: space-around;
-    font-size: 13px;
-    flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  flex-direction: row;
 }
 
 .scaleLogo {
-    scale: 60%;
+  scale: 60%;
 }
 
 .row {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .noTopMargin {
-    margin-top: 0%;
+  margin-top: 0%;
 }
 
 .topMargin {
-    margin-top: 5%;
+  margin-top: 5%;
 }
 
 .hover {
-    display: flex;
+  display: flex;
 }
 
 .hover:hover {
-    color: rgb(215, 204, 204);
+  color: rgb(215, 204, 204);
 }
 
 .color {
-    color: white;
-    margin: 50px;
-    margin-top: 0px;
+  color: white;
+  margin: 50px;
+  margin-top: 0px;
 }
 
 .container {
-    width: 1518px;
-    height: 700px;
+  width: 1518px;
+  height: 700px;
+  width: auto;
+}
+
+.image {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  width: auto;
+}
+
+.textImg {
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  color: white;
+  font-size: larger;
+}
+
+.textPosition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topMarginText {
+  margin-top: 5%;
+}
+
+.noBotMargin {
+  margin-bottom: 0%;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.margin {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.imgPosition img {
+  float: right;
 }
 
 @media (max-width: 800px) {
-    .hidden {
-        display: none;
-    }
+  .hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 870px) {
+  .hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .smaller {
+    font-size: 19px;
+  }
 }
 
 @media (max-width: 700px) {
+  .topMargin {
+    margin-top: 0%;
+  }
 
-    .topMargin {
-        margin-top: 0%;
-    }
+  .mid {
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .mid {
-        flex-direction: column;
-        text-align: center;
-    }
+  .footerColumn {
+    max-width: none;
+  }
 
-    .footerColumn {
-        max-width: none;
-    }
-
-    .box {
-        width: 100%;
-        margin-right: 0;
-        margin-left: 0;
-    }
+  .box {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
