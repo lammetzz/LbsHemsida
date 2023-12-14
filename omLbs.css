@@ -16,7 +16,7 @@
   
 
     body {
-        background-image: url(blue-color.jpg); 
+        background-image: url(darkcyanliquid.jpg); 
         background-repeat: no-repeat;
         background-size: cover;
         color: white;
@@ -102,6 +102,10 @@
 
   .hover:hover{
     color: rgb(215, 204, 204);
+  }
+
+  .noBotMargin {
+    margin-bottom: 0%;
   }
 
   @media (max-width: 800px) {
