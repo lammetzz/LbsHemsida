@@ -16,6 +16,9 @@
   
   body {
       background-color: whitesmoke;
+      background-image: url(./background.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
   }
 
   .logo{
@@ -26,6 +29,15 @@
       max-width: 100%;
   }
   
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 250px;
+    margin-top: 250px;
+  }
+
   .noMargin {
       margin: 0%;
   }
