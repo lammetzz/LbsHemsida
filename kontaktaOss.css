@@ -21,11 +21,17 @@
 
 .topMarginText {
     margin-top: 3%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
+.marginTop {
+    margin-top: 9%;
+}
 .textImg {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
 }
 .imgPosition {
     display: flex;
@@ -33,7 +39,7 @@
 }
 .img {
     height: auto;
-    max-width: 100%;
+    max-width: 55%
 }
 
 .textPosition {
@@ -46,8 +52,8 @@
 .text {
     color:white;
     background-color: 37, 58, 66;
-    width: 32%;
-    height: 367.09;
+    width: 100%;
+    height: auto;
     font-size: larger;
 }
 .noText {
