@@ -16,7 +16,6 @@
 
 body {
   background-color: black;
-  background-image: url(./);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -124,7 +123,6 @@ footer {
   width: auto;
   transition: transform 0.3s ease-in-out;
 }
-
 
 .textImg {
   display: flex;
