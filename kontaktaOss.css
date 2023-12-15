@@ -2,6 +2,13 @@
     display: flex;
     background-color: rgb(20, 44, 54);
     font-size: 11px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+.kort {
+    margin-top: 85px;
 }
 
 .test {
