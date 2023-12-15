@@ -80,6 +80,20 @@
       max-width: 100%;
   }
   
+  .image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 85px;
+    height: 85px;
+    width: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image:hover {
+    transform: scale(1.05);
+  }
+  
   .noMargin {
       margin: 0%;
   }
