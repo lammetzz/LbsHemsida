@@ -1,7 +1,9 @@
 .up {
   display: flex;
-  background-color: rgb(20, 44, 54);
+  background-color: rgb(20, 44, 54);  
+  width: 100%;
   font-size: 11px;
+  position: fixed;
 }
 
 .noText {
@@ -110,7 +112,7 @@ footer {
 
 .container {
   width: 1518px;
-  height: 700px;
+  height: 720px;
   width: auto;
 }
 
@@ -164,6 +166,18 @@ footer {
 
 .image:hover {
   transform: scale(1.05);
+}
+
+@media (max-width: 450px) {
+  .hiddenVideo {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .video {
+    margin-top: 80px;
+  }
 }
 
 @media (max-width: 851px) {
