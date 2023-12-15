@@ -2,6 +2,8 @@
     display: flex;
     background-color: rgb(20, 44, 54);
     font-size: 11px;
+    position: fixed;
+    width: 100%;
   }
   
   .noText {
@@ -148,6 +150,10 @@
         margin-right: 0;
         margin-left: 0;
     }
+}
+
+.marginTop {
+  margin-top: 100px;
 }
 
 .OmOss{
